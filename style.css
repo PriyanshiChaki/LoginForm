@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+    background:url(bg2.jpg);
+    text-align: center;
+    background-size: cover;
+    
+   
+   
+}
+title{
+    
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50% , -50%);
+    width: 600px;
+    padding: 40px;
+    background: rgba(10, 9, 6, 0.425);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+    
+
+}
+.box h2{
+    margin:0 0 30px;
+    padding: 0;
+    color: rgb(248, 14, 14);
+    text-align:center;
+    
+  
+}
+.box .inputBox{
+    position: relative;
+}
+.box .inputBox input
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(34, 252, 14);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    
+}
+.box .inputBox label{
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    font-style: normal;
+    color:rgb(253, 210, 15);
+    pointer-events: none;
+    transition: .5s;
+    text-align: center;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+{
+    top:-18px;
+    left: 0;
+    color:#0c0201;
+    font-size: 12px;
+}
+ .box input[type="submit"]
+{
+    background: transparent;
+    border:none;
+    outline: none;
+    color:rgb(253, 210, 15);;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background: #0a01012f;
+    padding: 10px 20 px;
+    cursor:pointer;
+    border-radius: 5px;
+    font-weight: bolder;
+
+
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: rgb(253, 210, 15);
+}
+h1{
+    text-shadow: crimson;
+}
+
+

@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(bg3.jpg);
+}
+*{
+    box-sizing: border-box;
+
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
+    min-height: 1px;
+}
+.team{
+    min-height: 100vh;
+    padding:60px 15px;
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    float: left;
+    width: 100%;
+}
+.team h1{
+    font-size: 36px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-weight: 900;
+    color: rgb(245, 229, 9);
+    margin: 0;
+    padding-bottom: 60px;
+    text-align: center;
+    
+}
+.team .card
+{
+    width: 25%;
+    float: left;
+    padding:0px 15px;
+}
+.team .card .box{
+    padding:15px;
+    background-color: rgba(240, 250, 248, 0.4); 
+    border-radius: 5px;
+    transition: margin 1s ease, box-shadow 1s ease;
+}
+.team .card .box:hover{
+    margin-top: -15px;
+    box-shadow: 0px 0px 40px black;
+    transform: scale(1.5);
+}
+
+.team .card .box img{
+    width: 150px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    
+}
+.team .card .box h4{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px 0px 10px;
+    color: blue;
+    text-align: center;
+    font-weight: 700;
+}
+.team .card .box h5
+{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color:#b9b9b9;
+    margin:0px 0px 15px;
+    text-align: center;
+}
+.team.card.box p{
+    color:black;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 20px;
+
+}
+p{
+    color:black;
+   text-align: justify;
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+li{
+    color: black;
+    line-height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    
+
+
+}
+.container h1{
+    color:black;
+}
+.container .own{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
